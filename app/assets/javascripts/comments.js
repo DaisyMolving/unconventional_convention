@@ -3,7 +3,7 @@ var publishedComments
 function displayComments(id) {
   $.ajax({
     method: 'GET',
-    url: '/comments',
+    url: '/comments/',
     dataType: 'json'
   }).done(function(data){
     publishedComments = data;
