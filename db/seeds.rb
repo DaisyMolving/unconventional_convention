@@ -5,3 +5,10 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+Comment.delete_all
+
+
+c1 = Comment.create(guestname: "Daisy", guestemail: "daisy@daisy.com", content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur dolor deserunt quaerat ipsam est dolorem. Dolorum dignissimos porro autem repellat nesciunt non tempore provident blanditiis! Autem perferendis quibusdam perspiciatis qui.")
+
+puts "seeded!"

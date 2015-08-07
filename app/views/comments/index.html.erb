@@ -1,1 +1,23 @@
 <h1>This is the index page</h1>
+
+
+
+<form action="/comments" class="new_comment" id="new_comment" method="post">
+
+    <input name="authenticity_token" type="hidden" value="NrOp5bsjoLRuK8IW5+dQEYjKGUJDe7TQoZVvq95Wteg=" />
+
+  <label for="guestname">Your name</label>:
+  <input id="guestname_input" name="comment[guestname]" type="text" /><br />
+
+  <label for="guestemail">Your email (this will not be published</label>:
+  <input id="guestemail_input" name="comment[guestemail]" type="text" /><br />
+
+  <label for="Content">Leave your message here </label>:
+  <input id="content_input" name="comment[content]" type="text" /><br />
+
+  <input name="commit" type="submit" value="Submit comment" />
+</form>
+
+<div id="comments_display">
+  
+</div>

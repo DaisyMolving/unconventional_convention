@@ -1,0 +1,25 @@
+<%= form_for @comment do |f| %>
+  <%= f.label :guestname %>:
+  <%= f.text_field :guestname %>
+
+
+    
+      
+       <div id="container-2">
+        <% @comments.each do |comment|%>
+
+        <h1><%= comment.guestname %>
+        
+        <%end%>
+        </h1>
+        
+        </div>
+     
+    
+
+
+  <%= f.submit 'Submit' %>
+
+
+  
+<% end %>

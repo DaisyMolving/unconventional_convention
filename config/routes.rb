@@ -2,6 +2,8 @@ Rails.application.routes.draw do
 
 root 'comments#index'
 
+resources :comments
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
