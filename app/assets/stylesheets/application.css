@@ -1,3 +1,101 @@
+body {
+  background-color: green;
+  color: white;
+}
+
+#preload {
+  text-align: center;
+}
+
+.logo {
+  display: inline;
+  position: absolute;
+  width: 20%;
+  margin-top: 3.8%;
+  margin-left: 28%;
+  z-index: 3;
+}
+
+.room1 {
+  margin-top: -17px;
+  width: 75%;
+  display: inline;
+  z-index: 2;
+}
+
+.room2 {
+  width: 75%;
+  position: absolute;
+  z-index: -1;
+  margin-left: -73%;
+  margin-top: 9%;
+  width: 56.2%;
+}
+
+.room-background {
+  position: absolute;
+  margin-left: -72.9%;
+  margin-top: 4%;
+  width: 40%;
+  z-index: -2;
+}
+
+.supervisor-bell-button {
+  position: absolute;
+  width: 8.4%;
+  margin-left: -67%;
+  margin-top: 13.2%;
+  z-index: 4;
+}
+
+.supervisor-flag {
+  position: absolute;
+  margin-top: 59.4%;
+  width: 23%;
+  margin-left: -23%;
+  z-index: -2;
+}
+
+.go-whats-next {
+  position: absolute;
+  width: 66.2%;
+  margin-left: -65.4%;
+  display: none;
+}
+
+
+.about-us-image {
+  display: inline;
+  width: 60%;
+}
+
+.cave1 {
+  width: 75%;
+  display: inline;
+}
+
+.cave2 {
+  width: 75%;
+  display: inline;
+}
+
+.water {
+  width: 75%;
+  display: inline;
+}
+
+.leave_your_stuff {
+  width: 60%;
+  display: inline;
+}
+
+.rectangle-call-supervisor {
+  width: 75%;
+  display: inline;
+}
+
+
+
 #content_input {
   width: 300px;
   height: 250px;
