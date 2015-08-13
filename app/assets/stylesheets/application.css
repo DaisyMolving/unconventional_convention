@@ -52,7 +52,7 @@ body {
   position: absolute;
   margin-top: 59.4%;
   width: 23%;
-  margin-left: -23%;
+  margin-left: -24%;
   z-index: -2;
 }
 
@@ -63,10 +63,51 @@ body {
   display: none;
 }
 
+.about_us_door_button {
+  position: absolute;
+  width: 16.5%;
+  margin-top: 18.5%;
+  margin-left: -25.4%; 
+}
 
-.about-us-image {
-  display: inline;
-  width: 60%;
+.about_us_flag {
+  position: absolute;
+  width: 19.6%; 
+  z-index: -1; 
+  margin-top: 60.38%;
+  margin-left: -23.3%
+}
+
+.go-gallery {
+  position: absolute;
+  z-index: -1;
+  width: 27.4%;
+  margin-top: 25.2%;
+  margin-left: -44.3%;
+}
+
+.gallery-flag {
+  position: absolute;
+  margin-top: 60.4%;
+  width: 19.8%;
+  margin-left: -23.1%;
+  z-index: -1;
+}
+
+.go-stuff-behind {
+  position: absolute;
+  width: 15.9%;
+  margin-left: -31.58%;
+  margin-top: 46.1%;
+
+}
+
+.stuff-behind-flag {
+  position: absolute;
+  width: 19%;
+  margin-top: 61.8%;
+  margin-left: -22.7%;
+  z-index: -1;
 }
 
 .cave1 {
@@ -95,7 +136,6 @@ body {
 }
 
 
-
 #content_input {
   width: 300px;
   height: 250px;
@@ -104,4 +144,12 @@ body {
 #new_comment {
   padding: 30px;
   background-color: grey;
+}
+
+#content_about_us {
+  width: 800px;
+}
+
+#content_footnote {
+  width: 800px;
 }
