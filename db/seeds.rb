@@ -8,6 +8,8 @@
 
 Comment.delete_all
 Organiser.delete_all
+Content.delete_all
+MailingList.delete_all
 
 
 
@@ -19,6 +21,12 @@ Annik = Organiser.create(headshot: "assets/annik.png", title: "Annik // MOTHER S
 
 Current_Content = Content.create(about_us: "We are, well, just eh way you are. Creative, intelligent and active folks, who are hungry for life and always giving themselves new challenges. The first Unconventional Convention was one of them - Pow was turning thirty and Annik kicked her ass to organise something special that would combine the two worlds that she loves; entrepreneurs and alternative performers. The rest is history.
 
-  It's not really about the money", footnote: "Feel free to email us any kind of random (but not spammy) shit, particularly if it's the inspiring kind of shit; ideas for themes, speakers & performers to feature at up-and-coming events or interesting charities that may be on a similar wavelength.")
+  It's not really about the money (we break even and give profits to selected charities), it's about creating a little magic, an alternate universe we can all be a part of every quarter or so.
+
+  If you haven't been to any events yet and you aren't sure what to expect, think TED talks meets a crazy cabaret night. Plus each of the events has a charitable purpose - we only work with small indepedent charities that we know the owners of.
+
+  We are always on the lookout for truly outstanding speakers, quirky performers, fabulous venues and crazy ideas that could help us take UC to yet another gallery of usefulness and fun.", footnote: "Feel free to email us any kind of random (but not spammy) shit, particularly if it's the inspiring kind of shit; ideas for themes, speakers & performers to feature at up-and-coming events or interesting charities that may be on a similar wavelength.");
+
+guest_1 = MailingList.create(first_name: "Daisy", last_name: "Molving", email_address: "daisymolving@gmail.com");
 
 puts "seeded!"
