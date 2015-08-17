@@ -3,7 +3,7 @@
   src: url(assets/KeepCalm-Medium.ttf) format("truetype");
 }
 body {
-  background-color: green;
+  background-color: black;
   color: white;
   font-family: "KeepCalm-Medium";
 }
@@ -167,6 +167,7 @@ body {
   column-count: 2;
   height: 310px;
   font-size: 13px;
+  line-height: 1.3;
 }
 .about-us-image {
   width: 73%;
@@ -306,7 +307,7 @@ body {
 .leave-your-stuff-form {
   padding-top: 20px;
   padding-bottom: 20px;
-  height: 600px;
+  height: 650px;
   position: absolute;
   padding-left: 75px;
   padding-right: 75px;
@@ -323,45 +324,109 @@ body {
   text-align: left;
   font-size: 13px;
 }
-#new_comment_form {
+#new_mailing_list_form {
   position: absolute;
   text-align: left;
   z-index: 5;
-  margin-top: 158%;
+  margin-top: 155%;
   margin-left: 18.5%;
+  width: 75%;
 }
-#guestname_input {
+#new_mailing_list_form h2{
+  font-size: 18px;
+}
+#new_mailing_list_form label {
+  font-size: 13px;
+}
+#new_mailing_list_form input {
+  display: inline;
+}
+#first_name_input {
   background-color: transparent;
   color: white;
   font-family: "KeepCalm-Medium";
   font-size: 13px;
   border: 2px solid white;
+  display: inline;
 }
-#guestemail_input {
+#last_name_input {
   background-color: transparent;
   color: white;
   font-family: "KeepCalm-Medium";
   font-size: 13px;
+  border: 2px solid white;
+  display: inline;
+}
+#email_address_input {
+  background-color: transparent;
+  color: white;
+  font-family: "KeepCalm-Medium";
+  font-size: 13px;
+  border: 2px solid white;
+  display: inline;
+  width: 46.8%;
+}
+#submit-mailing-list{
+  background-color: transparent;
+  color: white;
+  font-family: "KeepCalm-Medium";
+  font-size: 13px;
+  border: 2px solid white;
+  height: 30px;
+  margin-top: 2px;
+  margin-left: 30px;
+  display: inline;
+}
+#new_comment_form {
+  position: absolute;
+  text-align: left;
+  z-index: 5;
+  margin-top: 173%;
+  margin-left: 18.5%;
+}
+#new_comment_form h2{
+  font-size: 18px;
+}
+#new_comment_form label{
+  font-size: 13px;
+}
+#guestname_input {
+  background-color: transparent;
+  color: white;
+  font-family: "KeepCalm-Medium";
+  font-size: 11px;
   border: 2px solid white;
 }
 #content_input {
   background-color: transparent;
   color: white;
   font-family: "KeepCalm-Medium";
-  font-size: 13px;
+  font-size: 11px;
   border: 2px solid white;
   height: 150px;
   width: 300px;
 }
+#submit-comment{
+  background-color: transparent;
+  color: white;
+  font-family: "KeepCalm-Medium";
+  font-size: 13px;
+  border: 2px solid white;
+  height: 30px;
+  margin-top: 10px;
+}
 .leave_your_stuff {
-  width: 60%;
   position: absolute;
+  margin-top: 194%;
+  margin-left: 27%;
+  width: 56%;
+  z-index: 3;
 }
 .red-shape {
   position: absolute;
   width: 40%;
-  margin-top: 208%;
-  margin-left: -66%;
+  margin-left: 15%;
+  margin-top: 155%;
   z-index: 2;
 }
 

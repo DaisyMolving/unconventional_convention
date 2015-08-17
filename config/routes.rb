@@ -4,6 +4,7 @@ Rails.application.routes.draw do
 root 'comments#index'
 
 resources :comments
+resources :mailing_lists
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

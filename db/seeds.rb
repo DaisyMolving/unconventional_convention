@@ -12,7 +12,6 @@ Content.delete_all
 MailingList.delete_all
 
 
-
 c1 = Comment.create(guestname: "Daisy", guestemail: "daisy@daisy.com", content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur dolor deserunt quaerat ipsam est dolorem. Dolorum dignissimos porro autem repellat nesciunt non tempore provident blanditiis! Autem perferendis quibusdam perspiciatis qui.")
 
 Paulina = Organiser.create(headshot: "assets/paulina.png", title: "Pow // MOTHER SUPERIOR", email: "pow@iampow.me", twitter_handle: "@payah", personal_site: "www.iampow.me", description: "Business woman during the day, burlesque diva at night. <br>

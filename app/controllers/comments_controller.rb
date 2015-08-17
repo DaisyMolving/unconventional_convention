@@ -24,7 +24,7 @@ class CommentsController < ApplicationController
   # POST 
   def create
     Comment.create(comment_params)
-    redirect_to(comments_path)
+    redirect_to(root_path)
   end
 
     # GET
@@ -44,7 +44,7 @@ class CommentsController < ApplicationController
   def destroy
     comment = Comment.find(params[:id])
     comment.destroy
-    redirect_to(comments_path)
+    redirect_to(root_path)
   end
 
  
