@@ -183,14 +183,14 @@ body {
   padding-bottom: 20px;
   background-color: black;
   display: inline-block;
-  height: 400px;
+  height: 600px;
   position: absolute;
   margin-left: -71.9%;
   padding-left: 75px;
   padding-right: 75px;
   width: 60.6%;
   margin-top: 58%;
-  z-index: 4;
+  z-index: -2;
 }
 
 .gallery-divide {
@@ -201,14 +201,40 @@ body {
   font-size: 13px;
 }
 
+.floating-pictures-one {
+  position: absolute;
+  margin-left: -49%;
+  margin-top: 49%;
+  width: 47%;
+}
+
+.floating-pictures-two {
+  position: absolute;
+  margin-left: -49%;
+  margin-top: 53%;
+  width: 42%;
+}
+
+.floating-pictures-three {
+  position: absolute;
+  margin-left: -58%;
+  margin-top: 48%;
+  width: 33%;
+}
+
 .cave1 {
   width: 75%;
   display: inline;
+  margin-top: 45%;
 }
 
 .cave2 {
   width: 75%;
   display: inline;
+}
+
+.cave-background {
+  width: 75%;
 }
 
 .water {
