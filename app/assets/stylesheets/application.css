@@ -2,16 +2,19 @@
   font-family: "KeepCalm-Medium";
   src: url(assets/KeepCalm-Medium.ttf) format("truetype");
 }
-
 body {
   background-color: green;
   color: white;
   font-family: "KeepCalm-Medium";
 }
 
+
+
 #preload {
   text-align: center;
 }
+
+
 
 .logo {
   display: inline;
@@ -132,13 +135,14 @@ body {
   z-index: -1;
 }
 
+
+
 .about-us-text h1{
   text-align: left;
   padding-bottom: 0px;
   margin-bottom: -10px;
   font-size: 30px;
 }
-
 .about-us-text {
   padding-top: 20px;
   padding-bottom: 20px;
@@ -153,7 +157,6 @@ body {
   padding-right: 75px;
   width: 60.54%;
 }
-
 .about-us-paragraph {
   padding-top: 0px;
   margin-top: 0px;
@@ -165,12 +168,13 @@ body {
   height: 310px;
   font-size: 13px;
 }
-
 .about-us-image {
   width: 73%;
   margin-left: -3%;
   margin-top: 20%;
 }
+
+
 
 .gallery h1{
   text-align: left;
@@ -190,9 +194,8 @@ body {
   padding-right: 75px;
   width: 60.6%;
   margin-top: 58%;
-  z-index: -2;
+  z-index: 2;
 }
-
 .gallery-divide {
   padding-top: 0px;
   margin-top: 0px;
@@ -200,47 +203,100 @@ body {
   text-align: left;
   font-size: 13px;
 }
-
 .floating-pictures-one {
   position: absolute;
   margin-left: -49%;
   margin-top: 49%;
   width: 47%;
+  z-index: 3;
 }
-
 .floating-pictures-two {
   position: absolute;
   margin-left: -49%;
   margin-top: 53%;
   width: 42%;
+  z-index: 3;
 }
-
 .floating-pictures-three {
   position: absolute;
   margin-left: -58%;
   margin-top: 48%;
   width: 33%;
+  z-index: 3;
 }
+
+
 
 .cave1 {
-  width: 75%;
-  display: inline;
-  margin-top: 45%;
+  position: absolute;
+  margin-left: -71.9%;
+  margin-top: 114.9%;
+  width: 74%;
+  z-index: 3;
 }
-
 .cave2 {
-  width: 75%;
-  display: inline;
+  width: 74%;
+  position: absolute;
+  margin-top: 119%;
+  width: 52%;
+  margin-left: -61%;
+  z-index: 2;
 }
-
 .cave-background {
-  width: 75%;
+  width: 74%;
+  position: absolute;
+  z-index:-1;
+  margin-left: -71.9%;
+  margin-top: 113%;
+}
+.water {
+  width: 74%;
+  position: absolute;
+  margin-left: -71.9%;
+  margin-top: 114.9%;
+  z-index: 1;
+}
+.clouds {
+  position: absolute;
+  width: 69%;
+  margin-left: -69%;
+  margin-top: 119%;
+  z-index: 2;
+}
+.fish {
+  position: absolute;
+  width: 5%;
+  margin-top: 168%;
+  margin-left: -40%;
+  z-index: 5;
+}
+.event-information h1{
+  text-align: left;
+  padding-bottom: 0px;
+  margin-bottom: -10px;
+  font-size: 30px;
+}
+.event-information {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 400px;
+    position: absolute;
+    margin-left: 12%;
+    padding-left: 75px;
+    padding-right: 75px;
+    width: 60.6%;
+    margin-top: 109%;
+    z-index: 3
+}
+.event-info-divide {
+  padding-top: 0px;
+  margin-top: 0px;
+  color: white;
+  text-align: left;
+  font-size: 13px;
 }
 
-.water {
-  width: 75%;
-  display: inline;
-}
+
 
 .leave_your_stuff {
   width: 60%;

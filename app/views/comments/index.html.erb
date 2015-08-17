@@ -19,8 +19,7 @@
   <!-- about-us section -->
   <div class="about-us-text">
     <h1>ABOUT US</h1>
-    <p class="about-us-paragraph">
-    ___________________________________________________________________________________________________ <br><br><br><br>
+    <p class="about-us-paragraph">___________________________________________________________________________________________________ <br><br><br><br>
       <%= @content.about_us_para_one %> <br><br>
       <%= @content.about_us_para_two %> <br><br><br><br><br>
       <%= @content.about_us_para_three %> <br><br>
@@ -35,47 +34,34 @@
   <img class="floating-pictures-three" src="assets/Group_3.png">
   <div class="gallery">
     <h1>GALLERY</h1>
-    <p class="gallery-divide">  ___________________________________________________________________________________________________ </p>
+    <p class="gallery-divide">________________________________________________ </p>
 
   </div>
   
-  <!-- cave section -->
+  <!-- cave/what's next section -->
   <img class="cave1" src="assets/CAVE1.png">
   <img class="cave2" src="assets/CAVE_2.png">
-  <img class="cave-background" src="Rectangle_56.png">
+  <img class="cave-background" src="assets/Rectangle_56.png">
   <img class="water" src="assets/WATER_1.png">
+  <img class="clouds" src="assets/CLOUDS.png">
+  <img class="fish" src="assets/Fish.png">
+  <div class="event-information">
+    <h1>WHAT'S NEXT</h1>
+    <p class="event-info-divide">________________________________________________ </p>
+  </div>
 
-
-  <!-- leave you stuff section -->
+ <!-- leave you stuff section -->
+  <div class="Leave-your-stuff-form">
+    <h1>LEAVE YOUR STUFF BEHIND</h1>
+    <p class="event-info-divide">________________________________________________ </p>
+  </div>
+  <img class="red-shape" src="assets/GROUP_2.png">
   <img class="leave_your_stuff" src="assets/GROUP1.png">
 
-  <!-- call supervisor section -->
-  <img class="rectangle-call-supervisor" src="assets/Rectangle_57.png">
-  
-  <p class="footnote-text"> <%= @content.footnote %>
-  </p>
-
-</div> 
 
 
 
-<form action="/comments" class="new_comment" id="new_comment" method="post">
 
-    <input name="authenticity_token" type="hidden" value="NrOp5bsjoLRuK8IW5+dQEYjKGUJDe7TQoZVvq95Wteg=" />
 
-  <label for="guestname">Your name</label>:
-  <input id="guestname_input" name="comment[guestname]" type="text" /><br />
 
-  <label for="guestemail">Your email (this will not be published</label>:
-  <input id="guestemail_input" name="comment[guestemail]" type="text" /><br />
-
-  <label for="Content">Leave your message here </label>:
-  <input id="content_input" name="comment[content]" type="text" /><br />
-
-  <input name="commit" type="submit" value="Submit comment" />
-</form>
-
-<div id="comments_display">
-  
-</div>
 
