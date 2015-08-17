@@ -141,7 +141,7 @@ body {
   text-align: left;
   padding-bottom: 0px;
   margin-bottom: -10px;
-  font-size: 30px;
+  font-size: 28px;
 }
 .about-us-text {
   padding-top: 20px;
@@ -180,7 +180,7 @@ body {
   text-align: left;
   padding-bottom: 0px;
   margin-bottom: -10px;
-  font-size: 30px; 
+  font-size: 28px; 
 }
 .gallery {
   padding-top: 20px;
@@ -274,7 +274,7 @@ body {
   text-align: left;
   padding-bottom: 0px;
   margin-bottom: -10px;
-  font-size: 30px;
+  font-size: 28px;
 }
 .event-information {
     padding-top: 20px;
@@ -297,11 +297,75 @@ body {
 }
 
 
-
+.leave-your-stuff-form h1{
+  text-align: left;
+  padding-bottom: 0px;
+  margin-bottom: -10px;
+  font-size: 28px;
+}
+.leave-your-stuff-form {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  height: 600px;
+  position: absolute;
+  padding-left: 75px;
+  padding-right: 75px;
+  width: 60.6%;
+  z-index: 1;
+  background-color: black;
+  margin-top: 146%;
+  margin-left: 11.9%;
+}
+.leave-stuff-divide {
+  padding-top: 0px;
+  margin-top: 0px;
+  color: white;
+  text-align: left;
+  font-size: 13px;
+}
+#new_comment_form {
+  position: absolute;
+  text-align: left;
+  z-index: 5;
+  margin-top: 158%;
+  margin-left: 18.5%;
+}
+#guestname_input {
+  background-color: transparent;
+  color: white;
+  font-family: "KeepCalm-Medium";
+  font-size: 13px;
+  border: 2px solid white;
+}
+#guestemail_input {
+  background-color: transparent;
+  color: white;
+  font-family: "KeepCalm-Medium";
+  font-size: 13px;
+  border: 2px solid white;
+}
+#content_input {
+  background-color: transparent;
+  color: white;
+  font-family: "KeepCalm-Medium";
+  font-size: 13px;
+  border: 2px solid white;
+  height: 150px;
+  width: 300px;
+}
 .leave_your_stuff {
   width: 60%;
-  display: inline;
+  position: absolute;
 }
+.red-shape {
+  position: absolute;
+  width: 40%;
+  margin-top: 208%;
+  margin-left: -66%;
+  z-index: 2;
+}
+
+
 
 .rectangle-call-supervisor {
   width: 75%;
@@ -309,15 +373,7 @@ body {
 }
 
 
-#content_input {
-  width: 300px;
-  height: 250px;
-}
 
-#new_comment {
-  padding: 30px;
-  background-color: grey;
-}
 
 #content_about_us {
   width: 800px;
