@@ -1,5 +1,5 @@
 body {
-  background-color: black;
+  background-color: green;
   color: white;
 }
 
@@ -98,7 +98,7 @@ body {
   position: absolute;
   width: 15.9%;
   margin-left: -31.58%;
-  margin-top: 46.1%;
+  margin-top: 45.9%;
 
 }
 
@@ -108,6 +108,34 @@ body {
   margin-top: 61.8%;
   margin-left: -22.7%;
   z-index: -1;
+}
+
+.whats-next-button {
+  position: absolute;
+  width: 19%;
+  margin-left: -66.64%;
+  margin-top: 34.6%;
+  z-index: -1;
+}
+
+.whats-next-flag {
+  position: absolute;
+  margin-left: -22.5%;
+  margin-top: 61.4%;
+  width: 20%;
+  z-index: -1;
+}
+
+.about-us-text {
+  width: 75%;
+  height: auto;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  display: inline-block;
+  -webkit-column-count: 2;
+  -moz-column-count: 2; 
+  column-count: 2;
 }
 
 .cave1 {

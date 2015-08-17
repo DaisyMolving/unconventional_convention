@@ -11,18 +11,29 @@
   <img class="about_us_flag" src="assets/about_us_banner.png">
   <img class="go-stuff-behind" src="assets/go_stuff_button.png">
   <img class="stuff-behind-flag" src="assets/stuff-flag.png">
-  <img class="whats-next-button" src="assets/.png">
-  <img class="whats-next-flag" src="assets/.png">
+  <img class="whats-next-button" src="assets/whats-next-button.png">
+  <img class="whats-next-flag" src="assets/whats-next-flag.png">
 
 
+  <p class="about-us-text">
+    <%= @about_us %>
+  </p>
   <img class="about-us-image" src="assets/2.png"> 
+
+
   <img class="cave1" src="assets/CAVE1.png">
   <img class="cave2" src="assets/CAVE_2.png">
   <img class="water" src="assets/WATER_1.png">
   <img class="leave_your_stuff" src="assets/GROUP1.png">
   <img class="rectangle-call-supervisor" src="assets/Rectangle_57.png">
   <img class="" src="assets/">
-</div>  
+  
+  <p class="footnote-text"> <%= @footnote %>
+  </p>
+
+</div> 
+
+
 
 <form action="/comments" class="new_comment" id="new_comment" method="post">
 
@@ -44,4 +55,3 @@
   
 </div>
 
-<textarea name="paragraph_text" cols="50" rows="10"></textarea>

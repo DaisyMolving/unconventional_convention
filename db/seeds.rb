@@ -19,7 +19,7 @@ Paulina = Organiser.create(headshot: "assets/paulina.png", title: "Pow // MOTHER
   Philanthropist and creative maniac day and night.", article_links: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam, nisi?");
 Annik = Organiser.create(headshot: "assets/annik.png", title: "Annik // MOTHER SUPERIOR'S RIGHT HAND (AND LEFT BOOB)", email: "annik@ponyexpressclub.com", twitter_handle: "@_PONYexpress", personal_site: "www.ponyexpressclub.com", description: "Queen of the professional speakers scene. Carries a massive fluffy pony everywhere (must be a fetish).", article_links: "");
 
-Current_Content = Content.create(about_us: "We are, well, just eh way you are. Creative, intelligent and active folks, who are hungry for life and always giving themselves new challenges. The first Unconventional Convention was one of them - Pow was turning thirty and Annik kicked her ass to organise something special that would combine the two worlds that she loves; entrepreneurs and alternative performers. The rest is history.
+Current_Content = Content.create(about_us: "We are, well, just the way you are. Creative, intelligent and active folks, who are hungry for life and always giving themselves new challenges. The first Unconventional Convention was one of them - Pow was turning thirty and Annik kicked her ass to organise something special that would combine the two worlds that she loves; entrepreneurs and alternative performers. The rest is history.
 
   It's not really about the money (we break even and give profits to selected charities), it's about creating a little magic, an alternate universe we can all be a part of every quarter or so.
 

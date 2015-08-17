@@ -2,6 +2,8 @@ class CommentsController < ApplicationController
 
     def index
     @comments = Comment.all
+    @about_us = Content.find(2).about_us
+    @footnote = Content.find(2).footnote
   end
 
   # GET
