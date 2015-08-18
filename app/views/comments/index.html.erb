@@ -113,7 +113,8 @@
     <p class="organiser-details"><%= @organisers.find(5).twitter_handle%></p>
     <p class="organiser-details"><%= @organisers.find(5).personal_site%></p>
     <p class="organiser-description"><%= @organisers.find(5).description%></p>
-    <textarea readonly class="organiser-articles"><%= @organisers.find(5).article_links%></textarea>
+    <p class="articles-title">Read Pow's latest articles here:</p>
+    <p class="organiser-articles"><%= @organisers.find(5).article_links%></p>
   </div>
 
   <img class="annik-supervisor" src="<%= @organisers.find(6).headshot %>">
@@ -124,8 +125,13 @@
     <p class="organiser-details"><%= @organisers.find(6).twitter_handle%></p>
     <p class="organiser-details"><%= @organisers.find(6).personal_site%></p>
     <p class="organiser-description"><%= @organisers.find(6).description%></p>
-    <textarea readonly class="organiser-articles"><%= @organisers.find(6).article_links%></textarea>
+    <p class="organiser-articles"><%= @organisers.find(6).article_links%></p>
   </div>
+  <div class="box-extention"></div>
 
+ <!--  footnote -->
+ <div class="footnote">
+   <p><%= @content.footnote %></p>
+ </div>
 </div>
 

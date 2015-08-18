@@ -461,7 +461,7 @@ body {
 }
 .paulina-supervisor {
   position: absolute;
-  margin-top: 218%;
+  margin-top: 222%;
   z-index: 4;
   width: 9%;
   margin-left: -30%;
@@ -470,13 +470,14 @@ body {
   position: absolute;
   color: black;
   z-index: 2;
-  margin-top: 216.5%;
+  margin-top: 220.7%;
   text-align: left;
   margin-left: 33%;
+  width: 50%;
 }
 .annik-supervisor {
   position: absolute;
-  margin-top: 237%;
+  margin-top: 246%;
   z-index: 4;
   width: 9%;
   margin-left: -30%;
@@ -485,9 +486,10 @@ body {
   position: absolute;
   color: black;
   z-index: 2;
-  margin-top: 235.5%;
+  margin-top: 244.5%;
   text-align: left;
   margin-left: 33%;
+  width: 50%;
 }
 .organiser-title {
   font-size: 20px;
@@ -497,6 +499,41 @@ body {
 }
 .organiser-description {
   font-size: 13px;
+}
+.articles-title {
+  color: rgb(153, 8, 24);
+  font-size: 13px;
+}
+.organiser-articles {
+  font-size: 13px;
+  font-family: 'KeepCalm-Medium';
+  border: none;
+  box-decoration-break: none;
+  background-color: transparent;
+  color: black;
+  width: 80%;
+}
+.box-extention{
+  width: 74.1%;
+  height: 280px;
+  background-color: white;
+  position: absolute;
+  margin-top: 240%;
+  margin-left: 11.8%;
+}
+
+.footnote {
+  width: 74.1%;
+  background-color: black;
+  position: absolute;
+  margin-left: 11.8%;
+  color: white;
+  font-size: 13px;
+  height: 150px;
+  margin-top: 267%;
+  line-height: 1.5;
+  text-align: left;
+  padding-top: 0px;
 }
 
 
