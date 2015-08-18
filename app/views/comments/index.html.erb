@@ -21,7 +21,7 @@
     <h1>ABOUT US</h1>
     <p class="about-us-paragraph">___________________________________________________________________________________________________ <br><br><br>
       <%= @content.about_us_para_one %> <br><br>
-      <%= @content.about_us_para_two %> <br><br><br><br><br><br>
+      <%= @content.about_us_para_two %> <br><br><br><br>
       <%= @content.about_us_para_three %> <br><br>
       <%= @content.about_us_para_four %> <br><br>
     </p>
@@ -94,8 +94,38 @@
   <div id="comments_display">
     
   </div>
-
-  </div>
   <img class="red-shape" src="assets/GROUP_2.png">
   <img class="leave_your_stuff" src="assets/GROUP1.png">
+
+  <!-- call the supervisor section -->
+  <div class="supervisor-heading">
+    <h1>CALL THE SUPERVISOR</h1>
+    <p class="supervisor-divide">_________________________________________________________________________________ </p>
+  </div>
+
+  <img class="supervisor-background" src="assets/Rectangle_57.png">
+
+  <img class="paulina-supervisor"src="<%= @organisers.find(5).headshot%>">
+
+  <div class="organiser-content-paulina">
+    <h1 class="organiser-title"><%= @organisers.find(5).title%></h1>
+    <p class="organiser-details"><%= @organisers.find(5).email%></p>
+    <p class="organiser-details"><%= @organisers.find(5).twitter_handle%></p>
+    <p class="organiser-details"><%= @organisers.find(5).personal_site%></p>
+    <p class="organiser-description"><%= @organisers.find(5).description%></p>
+    <textarea readonly class="organiser-articles"><%= @organisers.find(5).article_links%></textarea>
+  </div>
+
+  <img class="annik-supervisor" src="<%= @organisers.find(6).headshot %>">
+
+  <div class="organiser-content-annik">
+    <h1 class="organiser-title"><%= @organisers.find(6).title%></h1>
+    <p class="organiser-details"><%= @organisers.find(6).email%></p>
+    <p class="organiser-details"><%= @organisers.find(6).twitter_handle%></p>
+    <p class="organiser-details"><%= @organisers.find(6).personal_site%></p>
+    <p class="organiser-description"><%= @organisers.find(6).description%></p>
+    <textarea readonly class="organiser-articles"><%= @organisers.find(6).article_links%></textarea>
+  </div>
+
+</div>
 

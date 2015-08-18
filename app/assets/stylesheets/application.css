@@ -151,7 +151,7 @@ body {
   height: 400px;
   position: absolute;
   margin-left: -74.35%;
-  margin-top: 64%;
+  margin-top: 62.5%;
   z-index: -2;
   padding-left: 75px;
   padding-right: 75px;
@@ -172,7 +172,7 @@ body {
 .about-us-image {
   width: 73%;
   margin-left: -3%;
-  margin-top: 20%;
+  margin-top: 21%;
 }
 
 
@@ -194,7 +194,7 @@ body {
   padding-left: 75px;
   padding-right: 75px;
   width: 60.6%;
-  margin-top: 58%;
+  margin-top: 57%;
   z-index: 2;
 }
 .gallery-divide {
@@ -418,31 +418,88 @@ body {
 .leave_your_stuff {
   position: absolute;
   margin-top: 194%;
-  margin-left: 27%;
+  margin-left: -23%;
   width: 56%;
   z-index: 3;
 }
 .red-shape {
   position: absolute;
   width: 40%;
-  margin-left: 15%;
+  margin-left: -35%;
   margin-top: 155%;
   z-index: 2;
 }
 
 
-
-.rectangle-call-supervisor {
-  width: 75%;
-  display: inline;
+.supervisor-heading {
+  position: absolute;
+  margin-top: 214%;
+  z-index: 2;
+  margin-left: 19.5%;
+}
+.supervisor-heading h1{
+  text-align: left;
+  padding-bottom: 0px;
+  margin-bottom: -10px;
+  font-size: 28px;
+  color: black;
+}
+.supervisor-divide {
+  padding-top: 0px;
+  margin-top: 0px;
+  color: white;
+  text-align: left;
+  font-size: 13px;
+  color: black;
+}
+.supervisor-background {
+  position: absolute;
+  width: 74%;
+  margin-left: -37.4%;
+  margin-top: 202%;
+  z-index: 1; 
+}
+.paulina-supervisor {
+  position: absolute;
+  margin-top: 218%;
+  z-index: 4;
+  width: 9%;
+  margin-left: -30%;
+}
+.organiser-content-paulina {
+  position: absolute;
+  color: black;
+  z-index: 2;
+  margin-top: 216.5%;
+  text-align: left;
+  margin-left: 33%;
+}
+.annik-supervisor {
+  position: absolute;
+  margin-top: 237%;
+  z-index: 4;
+  width: 9%;
+  margin-left: -30%;
+}
+.organiser-content-annik {
+  position: absolute;
+  color: black;
+  z-index: 2;
+  margin-top: 235.5%;
+  text-align: left;
+  margin-left: 33%;
+}
+.organiser-title {
+  font-size: 20px;
+}
+.organiser-details {
+  font-size: 13px;
+}
+.organiser-description {
+  font-size: 13px;
 }
 
 
-
-
-#content_about_us {
-  width: 800px;
-}
 
 #content_footnote {
   width: 800px;

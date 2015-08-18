@@ -3,6 +3,7 @@ class CommentsController < ApplicationController
     def index
     @comments = Comment.all
     @content = Content.find(3)
+    @organisers = Organiser.all
   end
 
   # GET
