@@ -415,6 +415,11 @@ body {
   height: 30px;
   margin-top: 10px;
 }
+#comments_display {
+  width: 30%;
+  height: 30%;
+  
+}
 .leave_your_stuff {
   position: absolute;
   margin-top: 194%;
