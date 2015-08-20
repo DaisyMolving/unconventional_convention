@@ -165,9 +165,11 @@ body {
   -webkit-column-count: 2;
   -moz-column-count: 2; 
   column-count: 2;
-  height: 310px;
-  font-size: 13px;
-  line-height: 1.3;
+  height: 340px;
+  font-size: 14px;
+  font-family: Helvetica;
+  line-height: 1.5;
+
 }
 .about-us-image {
   width: 73%;
@@ -248,7 +250,7 @@ body {
   position: absolute;
   z-index:-1;
   margin-left: -71.9%;
-  margin-top: 113%;
+  margin-top: 114.9%;
 }
 .water {
   width: 74%;
@@ -336,7 +338,8 @@ body {
   font-size: 18px;
 }
 #new_mailing_list_form label {
-  font-size: 13px;
+  font-size: 14px;
+  font-family: Helvetica;
 }
 #new_mailing_list_form input {
   display: inline;
@@ -344,24 +347,24 @@ body {
 #first_name_input {
   background-color: transparent;
   color: white;
-  font-family: "KeepCalm-Medium";
   font-size: 13px;
+  font-family: Helvetica;
   border: 2px solid white;
   display: inline;
 }
 #last_name_input {
   background-color: transparent;
   color: white;
-  font-family: "KeepCalm-Medium";
   font-size: 13px;
+  font-family: Helvetica;
   border: 2px solid white;
   display: inline;
 }
 #email_address_input {
   background-color: transparent;
   color: white;
-  font-family: "KeepCalm-Medium";
   font-size: 13px;
+  font-family: Helvetica;
   border: 2px solid white;
   display: inline;
   width: 46.8%;
@@ -388,20 +391,21 @@ body {
   font-size: 18px;
 }
 #new_comment_form label{
-  font-size: 13px;
+  font-size: 14px;
+  font-family: Helvetica;
 }
 #guestname_input {
   background-color: transparent;
   color: white;
-  font-family: "KeepCalm-Medium";
-  font-size: 11px;
+  font-family: Helvetica;
+  font-size: 13px;
   border: 2px solid white;
 }
 #content_input {
   background-color: transparent;
   color: white;
-  font-family: "KeepCalm-Medium";
-  font-size: 11px;
+  font-family: Helvetica;
+  font-size: 13px;
   border: 2px solid white;
   height: 150px;
   width: 300px;
@@ -497,21 +501,24 @@ body {
   width: 50%;
 }
 .organiser-title {
-  font-size: 20px;
+  font-size: 14px;
+  font-family: Helvetica;
 }
 .organiser-details {
-  font-size: 13px;
+  font-size: 14px;
+  font-family: Helvetica;
 }
 .organiser-description {
-  font-size: 13px;
+  font-size: 14px;
+  font-family: Helvetica;
 }
 .articles-title {
   color: rgb(153, 8, 24);
   font-size: 13px;
 }
 .organiser-articles {
-  font-size: 13px;
-  font-family: 'KeepCalm-Medium';
+  font-size: 14px;
+  font-family: Helvetica;
   border: none;
   box-decoration-break: none;
   background-color: transparent;
@@ -519,12 +526,12 @@ body {
   width: 80%;
 }
 .box-extention{
-  width: 74.1%;
+  width: 73.9%;
   height: 280px;
   background-color: white;
   position: absolute;
   margin-top: 240%;
-  margin-left: 11.8%;
+  margin-left: 12%;
 }
 
 .footnote {
@@ -533,16 +540,11 @@ body {
   position: absolute;
   margin-left: 11.8%;
   color: white;
-  font-size: 13px;
   height: 150px;
   margin-top: 267%;
   line-height: 1.5;
   text-align: left;
   padding-top: 0px;
-}
-
-
-
-#content_footnote {
-  width: 800px;
+  font-size: 14px;
+  font-family: Helvetica;
 }
