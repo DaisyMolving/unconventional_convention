@@ -5,6 +5,9 @@ class CommentsController < ApplicationController
     @content = Content.find(3)
     @organisers = Organiser.all
     @gallery_images = GalleryImage.all
+    respond_to do |format|
+        format.html # show.html.erb
+        format.json { render json: @comments }
   end
 
   # GET
@@ -12,9 +15,6 @@ class CommentsController < ApplicationController
     @comment = Comment.find(params[:id])
     @comments = Comment.all 
 
-    respond_to do |format|
-        format.html # show.html.erb
-        format.json { render json: @comments }
     end
   end
 
