@@ -12,8 +12,10 @@ function displayComments(id) {
   })
 }
 
+
 $(document).ready(function() {
 
   displayComments();
+
 
 })

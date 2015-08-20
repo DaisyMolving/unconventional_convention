@@ -36,15 +36,18 @@
     <h1>GALLERY</h1>
     <p class="gallery-divide">________________________________________________ </p>
 
-  <ul>
-    <div class="gallery-images">
-      <li ><% @gallery_images.each do |image|%>
-            <img class="images-list" src="<%= image.asset %>">
+    
+    <div class="scroll">
+      <div class="image-block">
+        <% @gallery_images.each do |image|%>
+            <img class="gallery-image" src="<%= image.asset %>">
           <%end%>
-      </li>
+      </div>
     </div>
-  </ul>
+  
   </div>
+
+
 
   
   <!-- cave/what's next section -->
