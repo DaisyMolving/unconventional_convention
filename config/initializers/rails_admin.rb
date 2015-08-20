@@ -7,7 +7,15 @@ RailsAdmin.config do |config|
     warden.authenticate! scope: :admin
   end
   config.current_user_method(&:current_admin)
+
+  config.model GalleryImage do
+    edit do
+      field :asset, :carrierwave
+    end
+  end
 end
+
+
 
   ## == Cancan ==
   # config.authorize_with :cancan

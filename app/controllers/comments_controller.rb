@@ -4,6 +4,7 @@ class CommentsController < ApplicationController
     @comments = Comment.all
     @content = Content.find(3)
     @organisers = Organiser.all
+    @gallery_images = GalleryImage.all
   end
 
   # GET

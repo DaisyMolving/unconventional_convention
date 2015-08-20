@@ -227,7 +227,24 @@ body {
   width: 33%;
   z-index: 3;
 }
-
+.gallery-images {
+  background-color: black;
+  z-index: 4;
+  margin-top: 6%;
+  margin-left: -7%;
+  position: absolute;
+  width: 90%;
+  max-height: 500px;
+}
+.images-list {
+  position: absolute;
+  max-height: 480px;
+  margin-left: -44.5%;
+  margin-top: -1%;
+}
+ul {
+  list-style: none;
+}
 
 
 .cave1 {

@@ -1,7 +1,7 @@
 class MailingListsController < ApplicationController
 
 
-    def index
+  def index
     @mailing_lists = MailingList.all
   end
 
