@@ -282,11 +282,25 @@ body {
   margin-top: 119%;
   z-index: 2;
 }
+.cogs{
+  position: absolute;
+  width: 15%;
+  margin-left: -13.1%;
+  margin-top: 190%;
+  z-index: 5;
+}
 .fish {
   position: absolute;
   width: 5%;
   margin-top: 168%;
   margin-left: -40%;
+  z-index: 5;
+}
+.fish-small {
+  position: absolute;
+  width: 3%;
+  margin-top: 170.7%;
+  margin-left: -31%;
   z-index: 5;
 }
 .event-information h1{
@@ -296,16 +310,16 @@ body {
   font-size: 28px;
 }
 .event-information {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    height: 400px;
-    position: absolute;
-    margin-left: 12%;
-    padding-left: 75px;
-    padding-right: 75px;
-    width: 60.6%;
-    margin-top: 109%;
-    z-index: 3
+  padding-top: 20px;
+  padding-bottom: 20px;
+  height: 400px;
+  position: absolute;
+  margin-left: 12%;
+  padding-left: 75px;
+  padding-right: 75px;
+  width: 60.6%;
+  margin-top: 109%;
+  z-index: 3
 }
 .event-info-divide {
   padding-top: 0px;
@@ -313,6 +327,30 @@ body {
   color: white;
   text-align: left;
   font-size: 13px;
+}
+.eventbrite-header {
+  width: 83.2%;
+  height: 44px;
+  background-color: rgb(142, 199, 196);
+  border-radius: 7px;
+  position: absolute;
+  margin-top: 0.1%;
+  text-align: left;
+  border: black solid 1px;
+}
+.eventbrite-header h2{
+  font-size: 17px;
+  padding-left: 11px;
+  color: rgb(64, 64, 64);
+}
+.eventbrite-widget {
+  text-align:left;
+  width: 101%;
+  overflow: hidden;
+  background-color:
+  transparent;
+  text-align: left;
+  margin-top: 2.6%;
 }
 
 
