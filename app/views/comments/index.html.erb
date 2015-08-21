@@ -132,8 +132,10 @@
     <p class="organiser-details"><%= @organisers.find(5).twitter_handle%></p>
     <p class="organiser-details"><%= @organisers.find(5).personal_site%></p>
     <p class="organiser-description"><%= @organisers.find(5).description%></p>
-    <p class="articles-title">Read Pow's latest articles here:</p>
-    <p class="organiser-articles"><%= @organisers.find(5).article_links%></p>
+    <p class="articles-title">READ POW'S LATEST ARTICLES HERE:</p>
+    <a class="organiser-articles" href="<%= @organisers.find(5).article_links%>"><%= @organisers.find(5).article_links%></a>
+    <a class="organiser-articles" href="<%= @organisers.find(5).article_link_two%>"><%= @organisers.find(5).article_link_two%></a>
+    <a class="organiser-articles" href="<%= @organisers.find(5).article_link_three%>"><%= @organisers.find(5).article_link_three%></a>
   </div>
 
   <img class="annik-supervisor" src="<%= @organisers.find(6).headshot %>">
