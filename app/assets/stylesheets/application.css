@@ -62,7 +62,52 @@ body {
   margin-top: 59.4%;
   width: 23%;
   margin-left: -24%;
-  z-index: -2;
+  z-index: -4;
+}
+.flag-cover {
+  position: absolute;
+  width: 25%;
+  height: 10%;
+  z-index: -3;
+  margin-left: 63%;
+  margin-top: -13%;
+  background-color: black;
+}
+
+.invisible-button-supervisor {
+  position: absolute;
+  margin-top: -60%;
+  margin-left: 21%;
+  width: 6%;
+  height: 29%;
+  background-color: transparent;
+  z-index: 5;
+}
+.invisible-button-gallery {
+  position: absolute;
+  background-color: transparent;
+  margin-top: -48%;
+  margin-left: 42%;
+  height: 25%;
+  width: 20%;
+}
+.invisible-button-about {
+  position: absolute;
+  width: 20%;
+  height: 20%;
+  background-color: transparent;
+}
+.invisible-button-stuff {
+  position: absolute;
+  width: 20%;
+  height: 20%;
+  background-color: transparent;
+}
+.invisible-button-next {
+  position: absolute;
+  width: 20%;
+  height: 20%;
+  background-color: transparent;
 }
 
 .go-whats-next {
@@ -82,7 +127,7 @@ body {
 .about_us_flag {
   position: absolute;
   width: 19.6%; 
-  z-index: -1; 
+  z-index: -4; 
   margin-top: 60.38%;
   margin-left: -23.3%
 }
@@ -100,7 +145,7 @@ body {
   margin-top: 60.4%;
   width: 19.8%;
   margin-left: -23.1%;
-  z-index: -1;
+  z-index: -4;
 }
 
 .go-stuff-behind {
@@ -116,7 +161,7 @@ body {
   width: 19%;
   margin-top: 61.8%;
   margin-left: -22.7%;
-  z-index: -1;
+  z-index: -4;
 }
 
 .whats-next-button {
@@ -132,7 +177,7 @@ body {
   margin-left: -22.5%;
   margin-top: 61.4%;
   width: 20%;
-  z-index: -1;
+  z-index: -4;
 }
 
 
