@@ -81,37 +81,42 @@
     <p class="leave-stuff-divide">_________________________________________________________________________________ </p>
   </div> 
     <form action="/mailing_lists" class="new_mailing_list" id="new_mailing_list_form" method="post">
-    <h2>ADD YOURSELF TO OUR MAILING LIST</h2>
+    <p class="or"> ---- OR ---- </p>
+    <br>
+    <h2>SIGN UP FOR FUTURE EVENT INFO</h2>
     <input name="authenticity_token" type="hidden" value="NrOp5bsjoLRuK8IW5+dQEYjKGUJDe7TQoZVvq95Wteg=" />
       <label for="first_name">First Name:  </label>
       <input id="first_name_input" name="mailing_list[first_name]" type="text" />
-
+      <br>
+      <br>
       <label for="last_name">Last Name:  </label>
      <input id="last_name_input" name="mailing_list[last_name]" type="text" />
       <br>
       <br>
-      <label for="email_address">Email Address:  </label>
+      <label for="email_address">Email:  </label>
       <input id="email_address_input" name="mailing_list[email_address]" type="text" />
+      <br>
+      <br>
       <input name="commit" type="submit" value="SUBMIT"
       id="submit-mailing-list" />
-      <br>
-      <br>
-      <p>---- OR ----</p>
+      
     </form>
 
     <form action="/comments" class="new_comment" id="new_comment_form" method="post">
       <h2>POST A MEMORY, POST AN IDEA!</h2>
       <input name="authenticity_token" type="hidden" value="NrOp5bsjoLRuK8IW5+dQEYjKGUJDe7TQoZVvq95Wteg=" />
-
-      <label for="guestname">Your Full Name</label>:
+      <div class="comment-name-section">
+        <label for="guestname">Your Full Name</label>:
+        <br>
+        <input id="guestname_input" name="comment[guestname]" type="text" />
+      </div>
       <br>
-      <input id="guestname_input" name="comment[guestname]" type="text" />
-      <br>
-      <br>
-
-      <label for="Content">Leave Your Message Here </label>:
-      <br>
-      <textarea id="content_input" name="comment[content]" type="text" /></textarea>
+      
+      <div class="comment-content-section">
+        <label for="Content">Leave Your Message Here </label>:
+        <br>
+        <textarea id="content_input" name="comment[content]" type="text" /></textarea>
+      </div>
       <br>
       <input name="commit" type="submit" value="SUBMIT"
       id="submit-comment" />
