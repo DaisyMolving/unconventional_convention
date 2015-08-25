@@ -711,10 +711,18 @@ body {
   margin-left: 11.8%;
   color: white;
   height: 150px;
-  margin-top: 267%;
+  margin-top: 265%;
   line-height: 1.5;
   text-align: left;
   padding-top: 0px;
-  font-size: 14px;
   font-family: Helvetica;
 }
+
+.footnote .footnote-1 {
+  font-size: 14px;
+}
+
+.footnote .footnote-2 {
+  font-size: 12px;
+}
+
