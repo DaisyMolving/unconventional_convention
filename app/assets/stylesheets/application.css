@@ -43,19 +43,10 @@ body {
 
 .room-background {
   position: absolute;
-  margin-left: 5.3%;
-  margin-top: -71%;
+  margin-left: -72.7%;
+  margin-top: 7%;
   z-index: -2;
-  height: 130%;
-}
-
-.room-background img{
-  position: relative;
-  width: 70%;
-  top: 0;
-  padding: 10px 0 0 0;
-  margin: 0 auto;
-  display: inline-block;
+  width: 40%;
 }
 
 .supervisor-bell-button {
@@ -266,21 +257,21 @@ body {
 .floating-pictures-one {
   position: absolute;
   margin-left: -49%;
-  margin-top: 49%;
+  margin-top: 61%;
   width: 47%;
   z-index: 3;
 }
 .floating-pictures-two {
   position: absolute;
   margin-left: -49%;
-  margin-top: 53%;
+  margin-top: 64%;
   width: 42%;
   z-index: 3;
 }
 .floating-pictures-three {
   position: absolute;
   margin-left: -58%;
-  margin-top: 48%;
+  margin-top: 75%;
   width: 33%;
   z-index: 3;
 }
@@ -329,7 +320,7 @@ body {
   width: 74%;
   position: absolute;
   margin-left: -71.9%;
-  margin-top: 114.9%;
+  margin-top: 161.9%;
   z-index: 1;
 }
 .clouds {
@@ -339,12 +330,12 @@ body {
   margin-top: 119%;
   z-index: 2;
 }
-.cogs{
+.seabed{
   position: absolute;
-  width: 15%;
-  margin-left: -13.1%;
-  margin-top: 190%;
-  z-index: 5;
+  width: 75%;
+  margin-left: -72.1%;
+  margin-top: 184%;
+  z-index: 4;
 }
 .fish {
   position: absolute;
@@ -428,7 +419,7 @@ body {
   background-color: transparent;
   margin-top: 146%;
   margin-left: 11.9%;
-  z-index: 3;
+  z-index: 5;
 }
 .leave-stuff-divide {
   padding-top: 0px;
@@ -561,7 +552,7 @@ body {
   margin-top: 172%;
   margin-left: 17%;
   background-color: transparent;
-  z-index: 3;
+  z-index: 5;
   height: 280px;
   border: none;
 }
@@ -599,16 +590,16 @@ body {
 .leave_your_stuff {
   position: absolute;
   margin-top: 246.8%;
-  margin-left: -61%;
+  margin-left: 16%;
   width: 64%;
   z-index: 4;
 }
 .red-shape {
   position: absolute;
   width: 44%;
-  margin-left: -71%;
+  margin-left: -129%;
   margin-top: 204%;
-  z-index: 2;
+  z-index: 4;
 }
 
 
@@ -642,7 +633,7 @@ body {
 }
 .paulina-supervisor {
   position: absolute;
-  margin-top: 276.5%;
+  margin-top: 300.5%;
   z-index: 4;
   width: 9%;
   margin-left: -65%;
@@ -658,7 +649,7 @@ body {
 }
 .annik-supervisor {
   position: absolute;
-  margin-top: 300.5%;
+  margin-top: 276.5%;
   z-index: 4;
   width: 9%;
   margin-left: -65%;

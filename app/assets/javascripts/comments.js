@@ -1,7 +1,60 @@
 var publishedComments;
-var parallaxElements = [];
-var windowHeight = 0;
+var height = $(window).height();
 
+
+function fillCave() {
+    var caveFilled = false;
+    $(window).scroll(function() {
+        if ($(this).scrollTop() >= 2130 && !caveFilled) { // if scroll is greater/equal then 100 and hasBeenTrigged is set to false.
+            $(".water").animate({marginTop: "114.9%"}, 4000);
+            caveFilled = true;
+        }
+    });
+};
+
+function moveRoom() {
+  var roomMoved = false;
+    $(window).scroll(function() {
+        if ($(this).scrollTop() >= 130 && !roomMoved) {
+            $(".room-background").animate({marginTop: "3%"}, "slow");
+            roomMoved = true;
+        }
+    });
+}
+
+function moveFrames() {
+  var framesMoved = false;
+    $(window).scroll(function() {
+        if ($(this).scrollTop() >= 1100 && !framesMoved) {
+            $(".floating-pictures-one").animate({marginTop: "49%"}, 1500);
+            $(".floating-pictures-two").animate({marginTop: "53%"}, 900);
+            $(".floating-pictures-three").animate({marginTop: "48%"}, 2000);
+            framesMoved = true;
+        }
+    });
+}
+
+function slideStuff() {
+  var stuffSlid = false;
+    $(window).scroll(function() {
+        if ($(this).scrollTop() >= 3044 && !stuffSlid) {
+            $(".red-shape").animate({marginLeft: "-71%"}, "slow");
+            $(".leave_your_stuff").animate({marginLeft: "-61%"}, "slow");
+            stuffSlid = true;
+        }
+    });
+}
+
+function swapSupervisor() {
+  var supervisorSwapped = false;
+    $(window).scroll(function() {
+        if ($(this).scrollTop() >= 3754 && !supervisorSwapped) {
+            $(".paulina-supervisor").animate({marginTop: "276.5%"}, "slow");
+            $(".annik-supervisor").animate({marginTop: "300.5%"}, "slow");
+            supervisorSwapped = true;
+        }
+    });
+}
 
 function displayComments() {
   $.ajax({
@@ -22,7 +75,9 @@ function showSupervisor() {
       $(".supervisor-bell-button").css("z-index", "4");
       $(".supervisor-flag").css("z-index", "-1");
       $("body").animate({ scrollTop: 130  }, "slow");
+      $(".room-background").animate({marginTop: "3%"}, "slow");
     })).done($(".invisible-button-supervisor").mouseout(function(){
+      console.log(height);
       $(".supervisor-bell-button").css("z-index", "-3");
       $(".supervisor-flag").css("z-index", "-4");
   }));  
@@ -33,6 +88,7 @@ function showGallery() {
       $(".go-gallery").css("z-index", "-1");
       $(".gallery-flag").css("z-index", "-1");
       $("body").animate({ scrollTop: 130  }, "slow");
+      $(".room-background").animate({marginTop: "3%"}, "slow");
     }));
   ($(".invisible-button-gallery").mouseout(function(){
       $(".go-gallery").css("z-index", "-3");
@@ -45,6 +101,7 @@ function showAbout() {
       $(".about_us_door_button").css("z-index", "1");
       $(".about_us_flag").css("z-index", "-1");
       $("body").animate({ scrollTop: 130  }, "slow");
+      $(".room-background").animate({marginTop: "3%"}, "slow");
     }));
   ($(".invisible-button-about").mouseout(function(){
       $(".about_us_door_button").css("z-index", "-3");
@@ -57,6 +114,7 @@ function showNext() {
       $(".whats-next-button").css("z-index", "-1");
       $(".whats-next-flag").css("z-index", "-1");
       $("body").animate({ scrollTop: 130  }, "slow");
+      $(".room-background").animate({marginTop: "3%"}, "slow");
     }));
   ($(".invisible-button-next").mouseout(function(){
       $(".whats-next-button").css("z-index", "-3");
@@ -69,6 +127,7 @@ function showStuff() {
       $(".go-stuff-behind").css("z-index", "2");
       $(".stuff-behind-flag").css("z-index", "-1");
       $("body").animate({ scrollTop: 130 }, "slow");
+      $(".room-background").animate({marginTop: "3%"}, "slow");
     }));
   ($(".invisible-button-stuff").mouseout(function(){
       $(".go-stuff-behind").css("z-index", "-3");
@@ -78,84 +137,34 @@ function showStuff() {
 
 function scrollToAbout() {
   ($(".invisible-button-about").click(function() {
-      $("body").animate({ scrollTop: 770 }, "slow");
+      $("body").animate({ scrollTop: 770 }, 2000);
     }));
 
 }
 
 function scrollToSupervisor() {
   ($(".invisible-button-supervisor").click(function() {
-      $("body").animate({ scrollTop: 4050 }, "slow");
+      $("body").animate({ scrollTop: 4050 }, 8000);
     }));
 } 
 
 function scrollToNext() {
   ($(".invisible-button-next").click(function() {
-      $("body").animate({ scrollTop: 2570 }, "slow");
+      $("body").animate({ scrollTop: 2538 }, 6000);
     }));
 } 
 
 function scrollToStuff() {
   ($(".invisible-button-stuff").click(function() {
-      $("body").animate({ scrollTop: 3270 }, "slow");
+      $("body").animate({ scrollTop: 3270 }, 7000);
     }));
 } 
 
 function scrollToGallery() {
   ($(".invisible-button-gallery").click(function() {
-      $("body").animate({ scrollTop: 1550 }, "slow");
+      $("body").animate({ scrollTop: 1550 }, 3000);
     }));
 }  
-
-function parallax(scrollTop) {
-
-  for (var id in parallaxElements) {
-
-        // distance of element from top of viewport
-    var viewportOffsetTop = parallaxElements[id].initialOffsetY - scrollTop;
-
-        // distance of element from bottom of viewport
-    var viewportOffsetBottom = windowHeight - viewportOffsetTop;
-
-    if ((viewportOffsetBottom >= parallaxElements[id].start) && (viewportOffsetBottom <= parallaxElements[id].stop)) {
-            // element is now active, fix the position so when we scroll it stays fixed
-
-      var speedMultiplier = parallaxElements[id].speed || 1;
-      var pos = (windowHeight - parallaxElements[id].start);
-
-      $(parallaxElements[id].elm)
-        .css({
-          position: 'fixed',
-          top: pos+'px',
-          left: '50%',
-          marginLeft: -(parallaxElements[id].width/2) +'px'
-        });
-
-    } else if (viewportOffsetBottom > parallaxElements[id].stop) {
-            // scrolled past the stop value, make position relative again
-
-      $(parallaxElements[id].elm)
-        .css({
-          position: 'relative',
-          top: (parallaxElements[id].stop-parallaxElements[id].start)+'px',
-          left: 'auto',
-          marginLeft: 'auto'
-        });
-
-    } else if (viewportOffsetBottom < parallaxElements[id].start) {
-            // scrolled up back past the start value, reset position
-
-      $(parallaxElements[id].elm)
-        .css({
-          position: 'relative',
-          top: 0,
-          left: 'auto',
-          marginLeft: 'auto'
-        });
-
-    }
-  }
-}
 
 $(document).ready(function() {
 
@@ -176,26 +185,11 @@ $(document).ready(function() {
   scrollToSupervisor();
   scrollToAbout();
 
-  var touchSupported = (('ontouchstart' in window) || window.DocumentTouch && document instanceof DocumentTouch);
+  moveRoom();
+  fillCave();
+  moveFrames();
+  slideStuff();
+  swapSupervisor();
 
-  if (touchSupported) {
-    $(window).bind('touchmove', function(e) {
-      var val = e.currentTarget.scrollY;
-        parallax(val);
-    });
-  }
-
-  $(window).bind('scroll', function(e) {
-    var val = $(this).scrollTop();
-      parallax(val);
-  });
-
-  $(window).resize(function() {
-    windowHeight = $(this).height();
-    for (var id in parallaxElements) {
-      parallaxElements[id].initialOffsetY = $(parallaxElements[id].elm).offset().top;
-      parallaxElements[id].height = $(parallaxElements[id].elm).height();
-    }
-  });
    
 });
