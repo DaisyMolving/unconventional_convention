@@ -144,7 +144,7 @@ function scrollToAbout() {
 
 function scrollToSupervisor() {
   ($(".invisible-button-supervisor").click(function() {
-      $("body").animate({ scrollTop: 4050 }, 8000);
+      $("body").animate({ scrollTop: 3940 }, 8000);
     }));
 } 
 
@@ -162,7 +162,7 @@ function scrollToStuff() {
 
 function scrollToGallery() {
   ($(".invisible-button-gallery").click(function() {
-      $("body").animate({ scrollTop: 1550 }, 3000);
+      $("body").animate({ scrollTop: 1522 }, 3000);
     }));
 }  
 

@@ -434,7 +434,7 @@ body {
     z-index: 5;
     margin-top: 171%;
     margin-left: 55.5%;
-    width: 30%;
+    width: 31%;
 }
 #new_mailing_list_form p {
   text-align: center;
@@ -443,7 +443,7 @@ body {
 }
 #new_mailing_list_form h2{
   font-size: 16.5px;
-  margin-top: 5px;
+  margin-top: -7px;
   margin-bottom: 25px;
 }
 #new_mailing_list_form label {
@@ -508,12 +508,24 @@ body {
   font-size: 14px;
   font-family: Helvetica;
 }
+.comment-email-section {
+  font-size: 14px;
+  font-family: Helvetica;
+}
 .comment-content-section {
   font-size: 14px;
   font-family: Helvetica;
   position: absolute;
   margin-left: 22%;
-  margin-top: -7%;
+  margin-top: -15.4%;
+}
+#guestemail_input {
+  background-color: rgba(255, 255, 255, 0.5);
+  color: white;
+  font-family: Helvetica;
+  font-size: 13px;
+  border: none;
+  margin-top: 1%;
 }
 #guestname_input {
   background-color: rgba(255, 255, 255, 0.5);
@@ -540,9 +552,9 @@ body {
   font-family: "KeepCalm-Medium";
   font-size: 13px;
   height: 30px;
-  margin-top: 20px;
+  margin-top: -41px;
   position: absolute;
-  margin-left: 91%;
+  margin-left: 92%;
   cursor: pointer;
 }
 .comments_display {
