@@ -28,7 +28,7 @@ function moveFrames() {
         if ($(this).scrollTop() >= 1100 && !framesMoved) {
             $(".floating-pictures-one").animate({marginTop: "49%"}, 1500);
             $(".floating-pictures-two").animate({marginTop: "53%"}, 900);
-            $(".floating-pictures-three").animate({marginTop: "48%"}, 2000);
+            $(".floating-pictures-three").animate({marginTop: "51%"}, 2000);
             framesMoved = true;
         }
     });
@@ -144,7 +144,7 @@ function scrollToAbout() {
 
 function scrollToSupervisor() {
   ($(".invisible-button-supervisor").click(function() {
-      $("body").animate({ scrollTop: 3940 }, 8000);
+      $("body").animate({ scrollTop: 3940 }, 7000);
     }));
 } 
 
@@ -156,7 +156,7 @@ function scrollToNext() {
 
 function scrollToStuff() {
   ($(".invisible-button-stuff").click(function() {
-      $("body").animate({ scrollTop: 3270 }, 7000);
+      $("body").animate({ scrollTop: 3197 }, 6000);
     }));
 } 
 
