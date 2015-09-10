@@ -1,6 +1,6 @@
 @font-face {
   font-family: "KeepCalm-Medium";
-  src: url(assets/KeepCalm-Medium.ttf) format("truetype");
+  src: url(KeepCalm-Medium.ttf) format("truetype");
 }
 body {
   background-color: black;
