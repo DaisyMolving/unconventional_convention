@@ -376,13 +376,16 @@ body {
   text-align: left;
   font-size: 13px;
 }
+.eventbrite-info {
+  width: 98.4%;
+}
 .eventbrite-header {
-  width: 83.2%;
+  width: 82%;
   height: 44px;
   background-color: rgb(142, 199, 196);
   border-radius: 7px;
   position: absolute;
-  margin-top: 0.1%;
+  margin-top: 0%;
   text-align: left;
   border: black solid 1px;
 }
@@ -395,8 +398,7 @@ body {
   text-align:left;
   width: 101%;
   overflow: hidden;
-  background-color:
-  transparent;
+  background-color: transparent;
   text-align: left;
   margin-top: 2.6%;
 }
