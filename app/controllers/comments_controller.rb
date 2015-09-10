@@ -6,7 +6,7 @@ class CommentsController < ApplicationController
     @organisers = Organiser.all
     @gallery_images = GalleryImage.all
     respond_to do |format|
-        format.html # show.html.erb
+        format.html 
         format.json { render json: @comments }
   end
 
